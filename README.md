@@ -49,9 +49,7 @@ Perangkat lunak dan perangkat yang diperlukan:
 
     `http://localhost/Lab7Web_PHP/latihan1/index.php`
 
-**Catatan:** Jangan menjalankan file PHP dengan klik ganda atau
-membukanya menggunakan alamat `file:///`. File PHP harus diakses melalui
-web server lokal.
+
 
 ### Menggunakan Laragon
 
@@ -64,10 +62,6 @@ web server lokal.
 
 ## 4. Struktur File Proyek
 
-Berikut contoh struktur folder yang dapat digunakan. Nama file dapat
-disesuaikan dengan file yang dibuat selama praktikum.
-
-``` text
 Lab7Web_PHP/
 ├── README.md
 ├── latihan1/
