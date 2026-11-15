@@ -64,8 +64,6 @@ web server lokal.
 
 ## 4. Struktur File Proyek
 
-Berikut contoh struktur folder yang dapat digunakan. Nama file dapat
-disesuaikan dengan file yang dibuat selama praktikum.
 
 ``` text
 Lab7Web_PHP/
@@ -115,7 +113,7 @@ Keterangan:
 
 ## 5. Ringkasan Hasil Praktikum
 
-Melalui praktikum ini, mahasiswa mempelajari dasar pemrograman
+Melalui praktikum ini dapat mempelajari dasar pemrograman
 server-side menggunakan PHP. File PHP dijalankan melalui server lokal
 dan hasil pemrosesannya ditampilkan pada browser.
 
@@ -131,8 +129,3 @@ dikembangkan menjadi formulir data mahasiswa yang memeriksa kelengkapan
 data, format email, dan rentang semester sebelum menampilkan ringkasan
 data.
 
-**Catatan pengumpulan:** Lengkapi folder ini dengan file PHP hasil
-pengerjaan, screenshot output dan pengujian validasi, serta penjelasan
-minimal dua contoh input valid dan dua contoh input tidak valid. Setelah
-itu, commit proyek ke repository dan kumpulkan URL repository sesuai
-arahan dosen.
