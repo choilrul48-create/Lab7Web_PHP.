@@ -111,7 +111,19 @@ Keterangan:
 -   `screenshot`: menyimpan tangkapan layar hasil pengujian setiap
     latihan.
 
-## 5. Ringkasan Hasil Praktikum
+## 5. kasus valid dan tidak valid
+
+1. Kasus Input Valid (Data Diterima & Diproses)
+
+• Kasus Valid 1: Pengisian Data Lengkap Sesuai Format. Pengguna mengisi semua kolom dengan benar, misalnya Nama: Choirul Majid, NIM: 3124101234 (10 digit angka murni), 
+• Kasus Valid 2: Input Mengandung Spasi Ekstra di Awal atau Akhir. Pengguna tidak sengaja mengetik spasi sebelum atau sesudah teks, misalnya Nama: "  Andi Pratama  " atau NIM: " 3124105678 ". Karena kode menggunakan fungsi trim(), spasi berlebih tersebut otomatis dibersihkan terlebih dahulu sehingga data tetap dianggap sah dan diproses normal.
+
+2. Kasus Input Tidak Valid (Data Ditolak & Muncul Error)
+
+• Kasus Tidak Valid 1: NIM Mengandung Huruf atau Jumlah Digit Tidak Sesuai. Pengguna memasukkan NIM berupa 312410ABCD (mengandung huruf) atau 312410 (kurang dari 10 digit). F
+• Kasus Tidak Valid 2: Format Email Salah dan Semester di Luar Batas. Pengguna mengetik email tanpa domain lengkap (misalnya majid@kampus) atau mengisi semester dengan angka 0 maupun 18. Fungsi filter_var(..., FILTER_VALIDATE_EMAIL) dan pengecekan rentang angka 1–14 akan menggagalkan validasi dan menampilkan daftar kesalahan di layar.
+
+## 6. Ringkasan Hasil Praktikum
 
 Melalui praktikum ini dapat mempelajari dasar pemrograman
 server-side menggunakan PHP. File PHP dijalankan melalui server lokal
